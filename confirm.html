@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .bodymain {
+            font-size:xx-large;
+            padding: 20px;
+            text-align: center;
+            margin:0;
+            width: 300px;
+            border: 1px solid #ccc;
+            border-radius:12px;
+        }
+    </style>
+</head>
+<div class="bodymain">
+    <div>
+      Are you sure?
+    </div>
+    <button onclick="ok()">
+        Yes
+    </button>
+    <button onclick="test2()">
+        No
+    </button>
+    <script> 
+        function ok() {
+            window.location.href = 'last.html';
+        }
+</script>
+<script>
+    function test2() {
+            window.location.href = 'vent.html';
+        }
+</script>
+</div>

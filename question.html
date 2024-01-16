@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .bodymain {
+            font-size:xx-large;
+            padding: 20px;
+            text-align: center;
+            margin:0;
+            width: 300px;
+            border: 1px solid #ccc;
+            border-radius:12px;
+        }
+    </style>
+</head>
+<body>
+    <div class = "bodymain">
+        <form>
+         Hey there<br>
+         <div>
+             Here's a question
+         </div><br>
+         
+         <div>
+             How's life?
+         </div><br>
+         <div>
+             <button type="button" onclick="test()">
+                 Good
+         
+             </button>
+             <button type="button" style="margin-left:10px;", onclick="test2()">
+                 Bad
+             </button>
+             <script> 
+                     function test() {
+                         window.location.href = 'confirm.html';
+                     }
+             </script>
+             <script>
+                 function test2() {
+                         window.location.href = 'vent.html';
+                     }
+             </script>
+             
+         </div>
+        </form>
+         
+     
+       
+     </div>
+</body>
